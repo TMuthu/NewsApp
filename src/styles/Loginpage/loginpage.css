@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logincontainer{
+    min-width: 100vw;
+    min-height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formcontainer{
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.loginform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginform h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.loginform input{
+    width: 250px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+.loginform button{
+    width: 150px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+.container2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.signupbtn{
+    flex-grow: 1;
+    text-align: center;
+    float: right;
+    padding: 10px 0 0 0;
+}
+.forgotpasswordlnk{
+    flex-grow: 1;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 10px 0 0 0;
+}
+
+::placeholder{
+    color:black;
+}
+.linkstyle{
+    text-decoration: none;
+    color: black;
+}
+
